@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RTCatering</string>
+    <string name="profile_title">My Profile</string>
+    <string name="profile_welcome">Welcome to your R&amp;T account!</string>
+    <string name="profile_information">Account Details\n\nManage your personal information and catering orders here.</string>
+    <string name="logout">Log Out</string>
+    <string name="logout_coming_soon">Logout will be connected next.</string>
+    <string name="back_to_home">Back to Home</string>
+</resources>

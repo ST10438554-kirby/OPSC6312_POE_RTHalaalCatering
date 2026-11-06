@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp"
+    android:background="@drawable/card_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Product image -->
+    <ImageView
+        android:id="@+id/ivProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/category_background"
+        android:contentDescription="Food product"
+        android:scaleType="centerCrop" />
+
+    <!-- Category -->
+    <TextView
+        android:id="@+id/tvProductCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Sweet Treats"
+        android:textColor="@color/rt_secondary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <!-- Product name -->
+    <TextView
+        android:id="@+id/tvProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Milk Tart"
+        android:textColor="@color/rt_primary"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/tvProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="Traditional creamy milk tart."
+        android:textColor="@color/rt_text_secondary"
+        android:textSize="14sp"
+        android:lineSpacingExtra="3dp" />
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/tvProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="R 5.00"
+        android:textColor="@color/rt_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Minimum quantity -->
+    <TextView
+        android:id="@+id/tvMinimumQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Minimum quantity: 20"
+        android:textColor="@color/rt_text_secondary"
+        android:textSize="13sp" />
+
+    <!-- View details -->
+    <TextView
+        android:id="@+id/tvViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_outline_background"
+        android:gravity="center"
+        android:text="VIEW DETAILS"
+        android:textColor="@color/rt_primary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

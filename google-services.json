@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171295080270",
+    "project_id": "rt-halaal-catering",
+    "storage_bucket": "rt-halaal-catering.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171295080270:android:9881ae9320c5942abda81f",
+        "android_client_info": {
+          "package_name": "com.example.rt_halaal_catering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFRNG2sOyzydHUIKd1WxygiU8yX1nPJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171295080270:android:6ad964f264719a38bda81f",
+        "android_client_info": {
+          "package_name": "com.example.rtcatering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmFRNG2sOyzydHUIKd1WxygiU8yX1nPJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

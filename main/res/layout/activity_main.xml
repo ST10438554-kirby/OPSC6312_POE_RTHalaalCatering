@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rt_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="26dp">
+
+        <!-- Catering Logo -->
+
+        <ImageView
+            android:id="@+id/ivWelcomeLogo"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/rt_catering_logo"
+            android:contentDescription="RT Halaal Catering Logo"
+            android:scaleType="fitCenter" />
+
+        <!-- App Name -->
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="R&amp;T HALAAL CATERING"
+            android:textColor="@color/rt_primary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:letterSpacing="0.04" />
+
+        <!-- Tagline -->
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="You bring the occasion, we'll bring the flavour!"
+            android:textColor="@color/rt_secondary"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:gravity="center" />
+
+        <!-- Decorative Divider -->
+
+        <View
+            android:layout_width="65dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/rt_secondary" />
+
+        <!-- Welcome Heading -->
+
+        <TextView
+            android:id="@+id/tvWelcomeHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Let's Make Your Occasion Delicious!"
+            android:textColor="@color/rt_primary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Welcome Description -->
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Welcome to R&amp;T Halaal Catering!
+
+Every celebration deserves something delicious! From birthdays and weddings to family gatherings, we've got the perfect treats for every occasion.
+
+Explore our sweet and savoury delights, freshly prepared platters and so much more. Choose your favourites, customise your order and let us bring the flavour to your special day!
+
+You bring the occasion, we'll bring the flavour!"
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:lineSpacingExtra="6dp" />
+
+        <!-- Product Highlights -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="SWEET TREATS  •  SAVOURY BITES  •  PLATTERS"
+            android:textColor="@color/rt_primary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Get Started Button -->
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/rt_primary"
+            android:text="GET STARTED "
+            android:textColor="@color/rt_text_white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+
+        <!-- Existing Account -->
+
+        <TextView
+            android:id="@+id/tvAlreadyAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Already have an account?"
+            android:textColor="@color/rt_text_secondary"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <!-- Login -->
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="12dp"
+            android:text="SIGN IN"
+            android:textColor="@color/rt_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Footer -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Made with love, prepared with care."
+            android:textColor="@color/rt_secondary"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+</ScrollView>

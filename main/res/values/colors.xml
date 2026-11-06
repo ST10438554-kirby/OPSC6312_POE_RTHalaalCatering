@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- R&T Halaal Catering Colours -->
+
+    <color name="rt_primary">#8B1E3F</color>
+    <color name="rt_primary_dark">#64142D</color>
+    <color name="rt_secondary">#D4A017</color>
+
+    <color name="rt_background">#FFF9F5</color>
+    <color name="rt_surface">#FFFFFF</color>
+
+    <color name="rt_text_primary">#2B2118</color>
+    <color name="rt_text_secondary">#756B63</color>
+    <color name="rt_text_white">#FFFFFF</color>
+
+    <color name="rt_success">#2E7D32</color>
+    <color name="rt_error">#C62828</color>
+
+    <color name="rt_border">#E5DDD7</color>
+
+</resources>

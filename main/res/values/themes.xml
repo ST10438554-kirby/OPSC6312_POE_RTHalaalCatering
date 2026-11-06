@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RTCatering" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Main colours -->
+        <item name="colorPrimary">@color/rt_primary</item>
+        <item name="colorPrimaryContainer">@color/rt_primary</item>
+
+        <item name="colorSecondary">@color/rt_secondary</item>
+        <item name="colorSecondaryContainer">@color/rt_secondary</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/rt_background</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/rt_primary_dark</item>
+        <item name="android:navigationBarColor">@color/rt_background</item>
+
+        <!-- Light status/navigation bar icons -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+    </style>
+
+</resources>

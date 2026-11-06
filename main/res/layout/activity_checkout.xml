@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/rt_background">
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@color/rt_primary">
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="‹"
+            android:textSize="38sp"
+            android:textColor="@color/rt_text_white"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Checkout"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/rt_text_white"
+            android:gravity="center" />
+
+        <View
+            android:layout_width="45dp"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+
+    <!-- Main Content -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <!-- Event Details -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EVENT DETAILS"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_primary" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Event Date"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_text_primary" />
+
+            <EditText
+                android:id="@+id/etEventDate"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="6dp"
+                android:hint="Select event date"
+                android:focusable="false"
+                android:clickable="true"
+                android:inputType="none"
+                android:padding="12dp"
+                android:background="@drawable/card_background" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Number of Guests"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_text_primary" />
+
+            <EditText
+                android:id="@+id/etGuests"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="6dp"
+                android:hint="Enter number of guests"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@drawable/card_background" />
+
+
+            <!-- Order Type -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="ORDER TYPE"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_primary" />
+
+
+            <RadioGroup
+                android:id="@+id/rgOrderType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbCollection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Collection"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rbDelivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+
+            <!-- Delivery Address -->
+
+            <TextView
+                android:id="@+id/tvDeliveryAddressLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Delivery Address"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_text_primary"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/etDeliveryAddress"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="6dp"
+                android:hint="Enter delivery address"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:padding="12dp"
+                android:background="@drawable/card_background"
+                android:visibility="gone" />
+
+
+            <!-- Additional Notes -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="ADDITIONAL NOTES"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_primary" />
+
+            <EditText
+                android:id="@+id/etNotes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:hint="Any special instructions?"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:padding="12dp"
+                android:background="@drawable/card_background" />
+
+
+            <!-- Order Summary -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="ORDER SUMMARY"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_primary" />
+
+            <LinearLayout
+                android:id="@+id/orderSummaryContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/card_background" />
+
+
+            <!-- Payment -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="PAYMENT"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_primary" />
+
+            <RadioGroup
+                android:id="@+id/rgPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbFullPayment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Full Amount"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rbDeposit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Deposit (50%)"
+                    android:textSize="16sp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tvPaymentSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Total: R 0.00"
+                android:textSize="16sp"
+                android:textColor="@color/rt_text_primary" />
+
+
+            <!-- Place Order -->
+
+            <Button
+                android:id="@+id/btnPlaceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="24dp"
+                android:text="PLACE ORDER"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/rt_text_white"
+                android:backgroundTint="@color/rt_primary" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
