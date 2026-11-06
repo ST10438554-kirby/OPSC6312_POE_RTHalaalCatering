@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">171295080270</string>
+    <string name="google_api_key" translatable="false">AIzaSyAmFRNG2sOyzydHUIKd1WxygiU8yX1nPJI</string>
+    <string name="google_app_id" translatable="false">1:171295080270:android:6ad964f264719a38bda81f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAmFRNG2sOyzydHUIKd1WxygiU8yX1nPJI</string>
+    <string name="google_storage_bucket" translatable="false">rt-halaal-catering.firebasestorage.app</string>
+    <string name="project_id" translatable="false">rt-halaal-catering</string>
+</resources>
